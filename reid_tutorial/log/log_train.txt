@@ -1,0 +1,71 @@
+==========
+Args:Namespace(root='D:/xiangmu/reid/data', dataset='market1501', workers=4, height=256, width=128, split_id=0, cuhk03_labeled=False, cuhk03_classic_split=False, use_metric_cuhk03=False, labelsmooth=False, optim='adam', max_epoch=1, start_epoch=0, train_batch=8, test_batch=8, lr=0.0002, stepsize=20, gamma=0.1, weight_decay=0.0005, margin=0.3, num_instances=4, htri_only=False, arch='resnet50', print_freq=10, seed=1, resume='', evaluate=False, eval_step=-1, start_eval=0, save_dir='log', use_cpu=False, gpu_devices='0', reranking=False, test_distance='global', unaligned=False)
+==========
+Currently using GPU 0
+Initializing dataset market1501
+=> Market1501 loaded
+Dataset statistics:
+  ------------------------------
+  subset   | # ids | # images
+  ------------------------------
+  train    |   751 |    12936
+  query    |   750 |     3368
+  gallery  |   751 |    15913
+  ------------------------------
+  total    |  1501 |    32217
+  ------------------------------
+Initializing model: resnet50
+Model size: 25.04683M
+start training
+Epoch: [1][10/375]	Time 0.173 (1.587)	Data 0.108 (1.104)	Loss 8.2542 (8.6477)	CLoss 6.4034 (6.7205)	MLoss 1.8509 (1.9272)	
+Epoch: [1][20/375]	Time 0.173 (0.881)	Data 0.108 (0.606)	Loss 9.8439 (9.0405)	CLoss 7.2350 (6.8418)	MLoss 2.6089 (2.1987)	
+Epoch: [1][30/375]	Time 0.175 (0.646)	Data 0.109 (0.440)	Loss 9.6173 (9.1815)	CLoss 8.3019 (7.1391)	MLoss 1.3154 (2.0424)	
+Epoch: [1][40/375]	Time 0.174 (0.528)	Data 0.109 (0.357)	Loss 9.8376 (9.3840)	CLoss 8.8287 (7.4667)	MLoss 1.0089 (1.9173)	
+Epoch: [1][50/375]	Time 0.174 (0.457)	Data 0.109 (0.307)	Loss 8.5736 (9.4162)	CLoss 8.5736 (7.6796)	MLoss 0.0000 (1.7366)	
+Epoch: [1][60/375]	Time 0.174 (0.410)	Data 0.109 (0.274)	Loss 8.3586 (9.3777)	CLoss 8.3586 (7.8097)	MLoss 0.0000 (1.5681)	
+Epoch: [1][70/375]	Time 0.175 (0.377)	Data 0.109 (0.251)	Loss 8.0557 (9.3606)	CLoss 7.6131 (7.8279)	MLoss 0.4426 (1.5327)	
+Epoch: [1][80/375]	Time 0.175 (0.351)	Data 0.110 (0.233)	Loss 8.6393 (9.2793)	CLoss 7.6402 (7.8156)	MLoss 0.9991 (1.4636)	
+Epoch: [1][90/375]	Time 0.174 (0.332)	Data 0.109 (0.219)	Loss 7.8310 (9.1818)	CLoss 7.4807 (7.8080)	MLoss 0.3503 (1.3738)	
+Epoch: [1][100/375]	Time 0.173 (0.316)	Data 0.109 (0.208)	Loss 8.2600 (9.0961)	CLoss 7.7496 (7.7856)	MLoss 0.5104 (1.3106)	
+Epoch: [1][110/375]	Time 0.174 (0.303)	Data 0.109 (0.199)	Loss 8.1334 (9.0175)	CLoss 7.2373 (7.7742)	MLoss 0.8961 (1.2433)	
+Epoch: [1][120/375]	Time 0.175 (0.292)	Data 0.110 (0.192)	Loss 8.4422 (8.9463)	CLoss 8.0637 (7.7674)	MLoss 0.3785 (1.1789)	
+Epoch: [1][130/375]	Time 0.174 (0.283)	Data 0.110 (0.185)	Loss 8.3016 (8.8855)	CLoss 7.6795 (7.7657)	MLoss 0.6220 (1.1198)	
+Epoch: [1][140/375]	Time 0.175 (0.276)	Data 0.109 (0.180)	Loss 7.7077 (8.8339)	CLoss 7.6833 (7.7684)	MLoss 0.0244 (1.0655)	
+Epoch: [1][150/375]	Time 0.175 (0.269)	Data 0.109 (0.175)	Loss 8.5960 (8.7863)	CLoss 8.0349 (7.7649)	MLoss 0.5611 (1.0215)	
+Epoch: [1][160/375]	Time 0.187 (0.263)	Data 0.107 (0.171)	Loss 7.6125 (8.7296)	CLoss 7.4819 (7.7546)	MLoss 0.1306 (0.9751)	
+Epoch: [1][170/375]	Time 0.176 (0.258)	Data 0.109 (0.167)	Loss 7.8365 (8.6771)	CLoss 7.6717 (7.7488)	MLoss 0.1648 (0.9283)	
+Epoch: [1][180/375]	Time 0.176 (0.253)	Data 0.109 (0.164)	Loss 7.6316 (8.6378)	CLoss 7.5201 (7.7421)	MLoss 0.1115 (0.8957)	
+Epoch: [1][190/375]	Time 0.177 (0.249)	Data 0.110 (0.161)	Loss 7.9746 (8.5967)	CLoss 7.5734 (7.7341)	MLoss 0.4012 (0.8625)	
+Epoch: [1][200/375]	Time 0.175 (0.246)	Data 0.109 (0.159)	Loss 8.0378 (8.5586)	CLoss 7.6985 (7.7298)	MLoss 0.3393 (0.8287)	
+Epoch: [1][210/375]	Time 0.177 (0.243)	Data 0.110 (0.156)	Loss 8.0762 (8.5282)	CLoss 7.7324 (7.7245)	MLoss 0.3438 (0.8037)	
+Epoch: [1][220/375]	Time 0.176 (0.240)	Data 0.110 (0.154)	Loss 7.6743 (8.5095)	CLoss 7.6743 (7.7264)	MLoss 0.0000 (0.7831)	
+Epoch: [1][230/375]	Time 0.195 (0.237)	Data 0.118 (0.153)	Loss 8.0153 (8.4986)	CLoss 7.5335 (7.7276)	MLoss 0.4818 (0.7711)	
+Epoch: [1][240/375]	Time 0.177 (0.235)	Data 0.111 (0.151)	Loss 7.7833 (8.4885)	CLoss 7.5157 (7.7348)	MLoss 0.2676 (0.7537)	
+Epoch: [1][250/375]	Time 0.192 (0.233)	Data 0.115 (0.149)	Loss 7.8916 (8.4717)	CLoss 7.6045 (7.7331)	MLoss 0.2871 (0.7386)	
+Epoch: [1][260/375]	Time 0.180 (0.230)	Data 0.114 (0.148)	Loss 7.6938 (8.4541)	CLoss 7.6782 (7.7304)	MLoss 0.0157 (0.7237)	
+Epoch: [1][270/375]	Time 0.174 (0.229)	Data 0.109 (0.147)	Loss 8.3478 (8.4379)	CLoss 7.8836 (7.7314)	MLoss 0.4641 (0.7065)	
+Epoch: [1][280/375]	Time 0.181 (0.227)	Data 0.112 (0.145)	Loss 7.9747 (8.4183)	CLoss 7.8182 (7.7311)	MLoss 0.1565 (0.6872)	
+Epoch: [1][290/375]	Time 0.178 (0.225)	Data 0.112 (0.144)	Loss 7.8072 (8.4005)	CLoss 7.5560 (7.7284)	MLoss 0.2512 (0.6721)	
+Epoch: [1][300/375]	Time 0.195 (0.224)	Data 0.119 (0.143)	Loss 7.8545 (8.3882)	CLoss 7.4319 (7.7261)	MLoss 0.4226 (0.6622)	
+Epoch: [1][310/375]	Time 0.184 (0.223)	Data 0.118 (0.142)	Loss 8.1359 (8.3695)	CLoss 7.5878 (7.7197)	MLoss 0.5482 (0.6498)	
+Epoch: [1][320/375]	Time 0.182 (0.221)	Data 0.112 (0.141)	Loss 8.0332 (8.3562)	CLoss 7.4388 (7.7170)	MLoss 0.5944 (0.6392)	
+Epoch: [1][330/375]	Time 0.180 (0.220)	Data 0.113 (0.140)	Loss 7.6483 (8.3489)	CLoss 7.4362 (7.7159)	MLoss 0.2121 (0.6330)	
+Epoch: [1][340/375]	Time 0.176 (0.219)	Data 0.111 (0.140)	Loss 8.0043 (8.3344)	CLoss 8.0043 (7.7130)	MLoss 0.0000 (0.6215)	
+Epoch: [1][350/375]	Time 0.177 (0.218)	Data 0.111 (0.139)	Loss 8.0145 (8.3214)	CLoss 7.5861 (7.7102)	MLoss 0.4284 (0.6111)	
+Epoch: [1][360/375]	Time 0.181 (0.217)	Data 0.114 (0.138)	Loss 8.0268 (8.3077)	CLoss 7.4971 (7.7051)	MLoss 0.5297 (0.6026)	
+Epoch: [1][370/375]	Time 0.189 (0.216)	Data 0.114 (0.138)	Loss 7.6461 (8.2952)	CLoss 7.5268 (7.6993)	MLoss 0.1193 (0.5959)	
+==> Test
+Extracted features for query set, obtained 3368-by-2048 matrix
+Extracted features for gallery set, obtained 15913-by-2048 matrix
+==> BatchTime(s)/BatchSize(img): 0.023/8
+Computing CMC and mAP
+Results ----------
+mAP: 4.3%
+CMC curve
+Rank-1  : 10.7%
+Rank-5  : 22.4%
+Rank-10 : 29.6%
+Rank-20 : 39.5%
+------------------
+==> Best Rank-1 10.7%, achieved at epoch 1
+Finished. Total elapsed time (h:m:s): 0:06:27. Training time (h:m:s): 0:01:21.
